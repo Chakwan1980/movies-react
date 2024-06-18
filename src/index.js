@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Componente from './Componente';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  
+    <Componente titulo="Cascada" contenido="Hola desde Berlin" dia="Martes" edad="44" ciudad="Berlin"/>
   </React.StrictMode>
 );
 
