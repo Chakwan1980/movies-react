@@ -1,13 +1,10 @@
 
-function Componente(props){
-    console.log(props);
+function Componente({titulo, children}){
+   
     return(
-        <div>
-            <h1>{props.titulo}</h1>
-            <div>{props.contenido}</div>
-            <li>{props.dia}</li>
-            <li>{props.edad}</li>
-            <li>{props.ciudad}</li>
+        <div className="contenedor">
+            <h1>{titulo}</h1>
+            <div>{children}</div>
           
         </div>
     );
